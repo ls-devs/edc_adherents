@@ -1,0 +1,45 @@
+/* CSS Document */
+div.widget.connexion p { margin:0 0 10px; }
+div.widget.connexion p.rememberme { float:left; line-height:18px; padding-top:5px; }
+div.widget.connexion p.submit { float:right; }
+div.widget.connexion label { display:inline-block; min-width:95px; }
+div.widget.connexion input[type=text], div.widget.connexion input[type=password] { width:150px; display:inline-block; margin:0; }
+div.widget.connexion input[type=submit] {
+    font-family: Calibri,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    vertical-align: middle;
+	padding:5px;
+}
+
+div.widget.connexion ul.menu li {
+	background-image: url("../images/blockcontentbullets.png");
+    background-repeat: no-repeat;
+    color: #133239;
+    line-height: 125%;
+    padding: 0 0 0 11px;
+}
+div.widget.connexion ul.menu li { margin:0; }
+div.widget.connexion ul.menu li a { color: #000; font-size: 14px; font-style: normal; font-weight: bold; text-align: justify;}
+div.widget.connexion ul.menu li a:hover { color: #d91733; }
+
+div.erreur_login { background-color: #fbb1b7; border: 1px solid; color: #ae121e; font-size: 13px; margin: 1em 0; padding: 1em; }
+
+div.adherent_nom { background-image:url(../images/user-yellow.png); background-repeat:no-repeat; padding-left:25px; font-weight:bold; }
+div.adherent_num { background-image:url(../images/credit-card.png); background-repeat:no-repeat; padding-left:25px; font-weight:bold; }
+
+ul.menu_adherent { background: #3e3e3e none repeat scroll 0 0; border: medium none; padding:10px; }
+ul.menu_adherent li { background: transparent url("../images/puce_sb.png") no-repeat scroll 10px 4px; padding-left: 27px; margin-top:6px; margin-bottom:6px; }
+ul.menu_adherent li a { color:#FFFFFF; }
+
+.inputinline select, .inputinline input[type=text] { display:inline-block; width:auto; padding:6px; }
+
+.style-simple table:not(.recaptchatable).rouge th { background-color:#d91733; color:#FFF; font-weight:bold; padding:5px; vertical-align:middle; }
+table.rouge th { background-color:#d91733; color:#FFF; font-weight:bold; padding:5px; vertical-align:middle; }
+table.rouge td { padding:5px; }
+
+#ListeActions blockquote { padding-left:30px; }
+
+#form_compte table tbody td { border:0; box-shadow:none; text-align:left; }
+#form_compte table tr:first-child td { box-shadow:none; }
